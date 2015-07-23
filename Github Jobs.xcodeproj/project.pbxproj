@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFE6B2711B39E577005A01FB /* libPods-Github Jobs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE6B2701B39E577005A01FB /* libPods-Github Jobs.a */; };
 		FFEAC5D31B2DB16400976E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAC5D21B2DB16400976E36 /* main.m */; };
 		FFEAC5D61B2DB16400976E36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAC5D51B2DB16400976E36 /* AppDelegate.m */; };
 		FFEAC5D91B2DB16400976E36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAC5D81B2DB16400976E36 /* ViewController.m */; };
@@ -27,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23088F33F78E7898E4BA44DE /* libPods-Github Jobs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Github Jobs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77115176266C88BB3A0AAAD /* Pods-Github Jobs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Jobs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs.release.xcconfig"; sourceTree = "<group>"; };
+		FE08D39E50421D65AFCA0977 /* Pods-Github Jobs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Jobs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE6B26C1B39E4FC005A01FB /* libPods-Github Jobs-SVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Github Jobs-SVProgressHUD.a"; path = "Pods/../build/Release-iphoneos/libPods-Github Jobs-SVProgressHUD.a"; sourceTree = "<group>"; };
+		FFE6B26D1B39E4FC005A01FB /* libPods-Github Jobs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Github Jobs.a"; path = "Pods/../build/Release-iphoneos/libPods-Github Jobs.a"; sourceTree = "<group>"; };
+		FFE6B2701B39E577005A01FB /* libPods-Github Jobs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Github Jobs.a"; path = "Pods/../build/Release-iphoneos/libPods-Github Jobs.a"; sourceTree = "<group>"; };
 		FFEAC5CD1B2DB16400976E36 /* Github Jobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Jobs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEAC5D11B2DB16400976E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFEAC5D21B2DB16400976E36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE6B2711B39E577005A01FB /* libPods-Github Jobs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4B177DFAE632F44ADB2498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6B2701B39E577005A01FB /* libPods-Github Jobs.a */,
+				FFE6B26C1B39E4FC005A01FB /* libPods-Github Jobs-SVProgressHUD.a */,
+				FFE6B26D1B39E4FC005A01FB /* libPods-Github Jobs.a */,
+				23088F33F78E7898E4BA44DE /* libPods-Github Jobs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF6781D87BB0DD41DB53151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE08D39E50421D65AFCA0977 /* Pods-Github Jobs.debug.xcconfig */,
+				D77115176266C88BB3A0AAAD /* Pods-Github Jobs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FFEAC5C41B2DB16400976E36 = {
 			isa = PBXGroup;
 			children = (
 				FFEAC5CF1B2DB16400976E36 /* Github Jobs */,
 				FFEAC5E91B2DB16500976E36 /* Github JobsTests */,
 				FFEAC5CE1B2DB16400976E36 /* Products */,
+				EDF6781D87BB0DD41DB53151 /* Pods */,
+				AD4B177DFAE632F44ADB2498 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFEAC5F01B2DB16500976E36 /* Build configuration list for PBXNativeTarget "Github Jobs" */;
 			buildPhases = (
+				6EE2B3AC17EFDABF5B417B51 /* Check Pods Manifest.lock */,
 				FFEAC5C91B2DB16400976E36 /* Sources */,
 				FFEAC5CA1B2DB16400976E36 /* Frameworks */,
 				FFEAC5CB1B2DB16400976E36 /* Resources */,
+				27CB5DFBDEF9C12D938D3FD8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +200,7 @@
 				TargetAttributes = {
 					FFEAC5CC1B2DB16400976E36 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = ZZ8UKUUT9P;
 					};
 					FFEAC5E51B2DB16500976E36 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -213,6 +246,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27CB5DFBDEF9C12D938D3FD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE2B3AC17EFDABF5B417B51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFEAC5C91B2DB16400976E36 /* Sources */ = {
@@ -263,6 +329,89 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FF66455B1B2F740F0068EB29 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GITHUB_JOBS_ENDPOINT = "https://github-jobs.mycompany.com/positions.json";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Ad Hoc";
+		};
+		FF66455C1B2F740F0068EB29 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE08D39E50421D65AFCA0977 /* Pods-Github Jobs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				INFOPLIST_FILE = "Github Jobs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME) (beta)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Ad Hoc";
+		};
+		FF66455D1B2F740F0068EB29 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Github JobsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Github Jobs.app/Github Jobs";
+			};
+			name = "Ad Hoc";
+		};
 		FFEAC5EE1B2DB16500976E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,6 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GITHUB_JOBS_ENDPOINT = "https://127.0.0.1:9000/position.json";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -337,6 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GITHUB_JOBS_ENDPOINT = "https://github-jobs.com/positions.json";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -347,21 +498,38 @@
 		};
 		FFEAC5F11B2DB16500976E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE08D39E50421D65AFCA0977 /* Pods-Github Jobs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = "Github Jobs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		FFEAC5F21B2DB16500976E36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77115176266C88BB3A0AAAD /* Pods-Github Jobs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				INFOPLIST_FILE = "Github Jobs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -406,6 +574,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFEAC5EE1B2DB16500976E36 /* Debug */,
+				FF66455B1B2F740F0068EB29 /* Ad Hoc */,
 				FFEAC5EF1B2DB16500976E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -415,17 +584,21 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFEAC5F11B2DB16500976E36 /* Debug */,
+				FF66455C1B2F740F0068EB29 /* Ad Hoc */,
 				FFEAC5F21B2DB16500976E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFEAC5F31B2DB16500976E36 /* Build configuration list for PBXNativeTarget "Github JobsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFEAC5F41B2DB16500976E36 /* Debug */,
+				FF66455D1B2F740F0068EB29 /* Ad Hoc */,
 				FFEAC5F51B2DB16500976E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
