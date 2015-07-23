@@ -21,6 +21,7 @@
     NSLog(@"Hi, I'm sample application ");
     NSLog(@"Hi, i'm book created for simple application");
     return YES;
+    broke this.......
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

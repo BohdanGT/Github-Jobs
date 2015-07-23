@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC9F99FF-710B-41EB-AC02-7F4407C91F73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Github Jobs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1847BC0A6AD59C14A649046CB2FC6828A9494207</key>
+		<string>https://github.com/BohdanGT/Github-Jobs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Github Jobs.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1847BC0A6AD59C14A649046CB2FC6828A9494207</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BohdanGT/Github-Jobs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1847BC0A6AD59C14A649046CB2FC6828A9494207</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1847BC0A6AD59C14A649046CB2FC6828A9494207</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Github%20Jobs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
